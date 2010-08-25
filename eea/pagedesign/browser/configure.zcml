@@ -4,14 +4,6 @@
 
   <browser:page
     for="*"
-    name="edit_page_design"
-    class=".page_design_view.PageDesignEditView"
-    permission="cmf.ModifyPortalContent"
-    allowed_interface=".interfaces.IPageDesignEditView"
-    />
-
-  <browser:page
-    for="*"
     name="page_design"
     class=".page_design_view.PageDesignView"
     permission="zope.Public"
