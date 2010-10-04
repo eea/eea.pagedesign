@@ -4,3 +4,6 @@ class IPageDesignView(Interface):
 
     def getBackgroundURL(url):
         """ """
+
+    def getLogoURL(url):
+        """ """
