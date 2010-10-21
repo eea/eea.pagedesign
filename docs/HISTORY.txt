@@ -3,7 +3,7 @@ Changelog
 
 0.3-dev - (unreleased)
 ----------------------
-- page_logo image will now pop up in left menu [thuliper, #3709]
+- page_logo image will now pop up in left menu [thuliper, #3709, #3783]
 
 0.2 - (2010-09-15)
 ----------------
