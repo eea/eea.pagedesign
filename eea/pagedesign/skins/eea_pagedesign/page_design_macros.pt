@@ -2,4 +2,7 @@
     <tal:block tal:define="bgURL view/getBackgroundURL">
         <tal:page-design tal:condition="bgURL" tal:replace="structure context/page_design_css"/>
     </tal:block>
+    <tal:block tal:define="logoURL view/getLogoURL">
+        <tal:page-design tal:condition="logoURL" tal:replace="structure context/page_logo_css"/>
+    </tal:block>
 </metal:macro>
