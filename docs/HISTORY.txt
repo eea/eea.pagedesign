@@ -1,6 +1,9 @@
 Changelog
 =========
 
+0.4-dev - (unreleased)
+----------------------
+
 0.3 - (2010-10-25)
 ----------------------
 - page_logo image will now pop up in left menu [thuliper, #3709, #3783]
