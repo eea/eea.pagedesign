@@ -33,6 +33,8 @@
                    root view/navigationRoot;
                    title view/title">
 
+<metal:globalPromotion use-macro="here/portlet_globalpromotion/macros/portlet" />
+
 <dl class="portlet" id="portlet-navigation-tree" 
     tal:condition="view/display">
     <dt class="portletHeader"  id="firstHeader">
