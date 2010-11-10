@@ -3,6 +3,7 @@ Changelog
 
 0.4-dev - (unreleased)
 ----------------------
+- global promotion above the navigation added #3829 [vincisas]
 
 0.3 - (2010-10-25)
 ----------------------
