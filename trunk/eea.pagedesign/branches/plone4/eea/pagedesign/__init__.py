@@ -2,7 +2,7 @@
 """
 from Products.CMFCore.DirectoryView import registerDirectory
 from Products.CMFCore import utils
-from Globals import package_home
+from App.Common import package_home
 from os.path import dirname
 
 GLOBALS = globals()
