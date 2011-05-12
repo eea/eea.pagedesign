@@ -1,3 +1,5 @@
+""" Setup.py
+"""
 import os
 from os.path import join
 from setuptools import setup, find_packages
@@ -11,7 +13,6 @@ setup(name='eea.pagedesign',
       description="",
       long_description=open("README.txt").read() + "\n" +
                        open(os.path.join("docs", "HISTORY.txt")).read(),
-      # Get more strings from http://pypi.python.org/pypi?%3Aaction=list_classifiers
       classifiers=[
         "Programming Language :: Python",
         ],
@@ -26,6 +27,8 @@ setup(name='eea.pagedesign',
       zip_safe=False,
       install_requires=[
           'setuptools',
+          'eea.design'
+          'eea.testcase'
           # -*- Extra requirements: -*-
       ],
       entry_points="""

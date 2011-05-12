@@ -1,3 +1,5 @@
+""" Plone Install module
+"""
 from Products.CMFCore.utils import getToolByName
 import transaction
 
@@ -7,6 +9,7 @@ PRODUCT_DEPENDENCIES = []
 
 
 def install(self, reinstall=False):
+    """ plone install metod """
     qi = getToolByName(self, 'portal_quickinstaller')
     for i in PRODUCT_DEPENDENCIES:
         if reinstall and qi.isProductInstalled(i):
@@ -16,7 +19,6 @@ def install(self, reinstall=False):
             qi.installProduct(i)
             transaction.savepoint()
     portal_setup = getToolByName(self, 'portal_setup')
-    portal_setup.setImportContext('profile-%s' % PROFILE)
-    portal_setup.runAllImportSteps()
+    portal_setup.runAllImportStepsFromProfile('profile-%s' % PROFILE)
     product_name = PROFILE.split(':')[0]
     qi.notifyInstalled(product_name)
