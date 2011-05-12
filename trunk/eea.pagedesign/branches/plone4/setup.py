@@ -27,7 +27,7 @@ setup(name='eea.pagedesign',
       zip_safe=False,
       install_requires=[
           'setuptools',
-          'eea.design'
+          'eea.design',
           'eea.testcase'
           # -*- Extra requirements: -*-
       ],
