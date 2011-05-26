@@ -5,11 +5,9 @@
 
   <genericsetup:registerProfile
       name="default"
-      title="eea.pagedesign"
+      title="EEA Pagedesign"
       directory="profiles/default"
-      description="Extension profile for eea.pagedesign page"
-      provides="Products.GenericSetup.interfaces.EXTENSION"
-      />
-
+      description="Extension profile for EEA Pagedesign page"
+      provides="Products.GenericSetup.interfaces.EXTENSION" />
 
 </configure>

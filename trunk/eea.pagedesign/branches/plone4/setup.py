@@ -1,15 +1,14 @@
 """ Setup.py
 """
 import os
-from os.path import join
 from setuptools import setup, find_packages
 
-name = 'eea.pagedesign'
-path = name.split('.') + ['version.txt']
-version = open(join(*path)).read().strip()
+NAME = 'eea.pagedesign'
+PATH = NAME.split('.') + ['version.txt']
+VERSION = open(os.path.join(*PATH)).read().strip()
 
-setup(name='eea.pagedesign',
-      version=version,
+setup(name=NAME,
+      version=VERSION,
       description="",
       long_description=open("README.txt").read() + "\n" +
                        open(os.path.join("docs", "HISTORY.txt")).read(),
@@ -29,7 +28,6 @@ setup(name='eea.pagedesign',
           'setuptools',
           'eea.design',
           'eea.testcase'
-          # -*- Extra requirements: -*-
       ],
       entry_points="""
       # -*- Entry points: -*-
