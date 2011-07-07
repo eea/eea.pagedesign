@@ -27,7 +27,6 @@ setup(name=NAME,
       install_requires=[
           'setuptools',
           'eea.design',
-          'eea.testcase'
       ],
       entry_points="""
       # -*- Entry points: -*-
