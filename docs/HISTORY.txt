@@ -1,0 +1,22 @@
+Changelog
+=========
+
+0.5-dev - (unreleased)
+----------------------
+ * Bug fix: Added translation domain to ZCML files [voineali #4139]
+
+0.4 - (2010-11-10)
+------------------
+- global promotion above the navigation added #3829 [vincisas]
+
+0.3 - (2010-10-25)
+----------------------
+- page_logo image will now pop up in left menu [thuliper, #3709, #3783]
+
+0.2 - (2010-09-15)
+----------------
+- Fix 404 issues [thuliper, #3651]
+
+0.1 - (2010-09-06)
+-------------------
+- Initial release
