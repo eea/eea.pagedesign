@@ -1,0 +1,2 @@
+""" eea.pagedesign browser init 
+"""
