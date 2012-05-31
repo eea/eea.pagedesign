@@ -1,8 +1,10 @@
-Changelog
+﻿Changelog
 =========
 
 4.2-dev - (unreleased)
 ----------------------
+* Bug fix: fixed markup of HISTORY.txt file
+  [ciobabog refs #5231]
 
 4.1 - (2011-11-18)
 ------------------
@@ -23,7 +25,7 @@ Changelog
 0.4 - (2010-11-10)
 ------------------
 * Global promotion above the navigation added
- [vincisas #3829]
+  [vincisas #3829]
 
 0.3 - (2010-10-25)
 ------------------
