@@ -1,0 +1,5 @@
+<style>
+    #portlet-navigation-tree #firstHeader {
+        background: white;
+    }
+</style>
