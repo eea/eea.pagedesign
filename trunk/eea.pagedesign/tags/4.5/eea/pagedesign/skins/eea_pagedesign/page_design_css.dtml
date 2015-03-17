@@ -1,0 +1,5 @@
+<style>
+    body {
+        background: transparent url(&dtml-bgURL;) no-repeat scroll left 25em;
+    }
+</style>
