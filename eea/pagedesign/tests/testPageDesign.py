@@ -1,6 +1,6 @@
 """ test page design module
 """
-from eea.pagedesign.tests.base import FunctionalTestCase 
+from eea.pagedesign.tests.base import FunctionalTestCase
 
 class TestPageBackground(FunctionalTestCase):
     """Test-cases for class(es) Frontpage."""

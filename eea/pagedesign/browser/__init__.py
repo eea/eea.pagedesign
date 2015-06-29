@@ -1,2 +1,2 @@
-""" eea.pagedesign browser init 
+""" eea.pagedesign browser init
 """
