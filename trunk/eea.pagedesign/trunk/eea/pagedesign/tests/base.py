@@ -12,7 +12,7 @@ ztc.installProduct('eea.pagedesign')
 
 #PROFILES = ['eea.design:default']
 
-#PloneTestCase.setupPloneSite(products="eea.pagedesign", 
+#PloneTestCase.setupPloneSite(products="eea.pagedesign",
 #            extension_profiles=['eea.pagedesign:default'])
 #profile_registry.registerProfile(
 #                    'testfixture',
@@ -37,6 +37,5 @@ setup_product()
 ptc.setupPloneSite(products=['eea.pagedesign'])
 
 class FunctionalTestCase(ptc.PloneTestCase):
-    """ base class for all the tests in this package. 
+    """ base class for all the tests in this package.
     """
-

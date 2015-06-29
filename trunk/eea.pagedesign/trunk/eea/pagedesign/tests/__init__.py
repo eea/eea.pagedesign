@@ -1,2 +1,2 @@
-""" tests init 
+""" tests init
 """
