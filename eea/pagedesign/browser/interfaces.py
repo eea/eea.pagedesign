@@ -11,7 +11,3 @@ class IPageDesignView(Interface):
 
     def getLogoURL(url):
         """  Method to check if url has logo url """
-
-
-
-

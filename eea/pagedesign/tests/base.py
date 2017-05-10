@@ -3,8 +3,8 @@
 #from Products.PloneTestCase import PloneTestCase
 #from Products.GenericSetup import EXTENSION, profile_registry
 #from Products.CMFPlone.interfaces import ITestCasePloneSiteRoot
-from Products.PloneTestCase.layer import onsetup
 from Testing import ZopeTestCase as ztc
+from Products.PloneTestCase.layer import onsetup
 from Products.Five import zcml
 from Products.Five import fiveconfigure
 from Products.PloneTestCase import PloneTestCase as ptc
