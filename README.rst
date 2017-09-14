@@ -1,10 +1,8 @@
 ===============
 EEA Page Design
 ===============
-.. image:: http://ci.eionet.europa.eu/job/eea.pagedesign-www/badge/icon
-  :target: http://ci.eionet.europa.eu/job/eea.pagedesign-www/lastBuild
-.. image:: http://ci.eionet.europa.eu/job/eea.pagedesign-plone4/badge/icon
-  :target: http://ci.eionet.europa.eu/job/eea.pagedesign-plone4/lastBuild
+.. image:: http://ci.eionet.europa.eu/job/eea/job/eea.pagedesign/job/master/badge/icon
+  :target: http://ci.eionet.europa.eu/job/eea/job/eea.pagedesign/job/master/display/redirect
 
 
 Contents
