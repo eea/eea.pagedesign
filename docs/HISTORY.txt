@@ -1,7 +1,7 @@
 Changelog
 =========
 
-4.9.dev0 - (unreleased)
+4.9 - (2019-01-28)
 -----------------------
 * Change: updated URLs pointing to eea.europa.eu with https://
   [alecghica refs #95849]
@@ -55,7 +55,7 @@ Changelog
 * Feature: ported package to plone 4
   [ichimdav #4310]
 
-0.5-dev - (unreleased)
+0.5 - (2019-01-28)
 ----------------------
 * Bug fix: Added translation domain to ZCML files
   [voineali #4139]
